@@ -5,8 +5,6 @@ body {
   
     background: linear-gradient(180deg, rgba(227, 255, 248, 0.00) 0%, rgba(227, 255, 248, 0.38) 100%);
     min-height: 100vh;
-
-    /* margin-bottom: 1000px; */
   }
   
   .page {
