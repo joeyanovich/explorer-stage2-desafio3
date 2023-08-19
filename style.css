@@ -3,20 +3,25 @@ body {
   
     font-family: "Open Sans", sans-serif;
   
-    background: linear-gradient(90deg, rgb(227, 255, 248, 0) 82.08%, rgb(227, 255, 248, 0.38) 100%);
-  
+    background: linear-gradient(180deg, rgba(227, 255, 248, 0.00) 0%, rgba(227, 255, 248, 0.38) 100%);
     min-height: 100vh;
+
+    /* margin-bottom: 1000px; */
   }
   
   .page {
-    width: 600px;
+    width: 1008px;
     margin: 0 auto;
     padding-top: 65px;
   }
-  
+  main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 58px;
+  }
   nav {
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     align-items: center;
   
     margin-bottom: 15px;
@@ -25,6 +30,7 @@ body {
   ul {
     display: flex;
     list-style: none;
+    gap: 48px;
     margin: 0;
     padding: 0;
   }
@@ -54,8 +60,8 @@ body {
     color: #1f1534;
   
     font-weight: normal;
-  
-    width: 490px;
+
+    width: 100%;
   }
   
   h1 span {
@@ -69,20 +75,26 @@ body {
     color: #7d7987;
   
     margin: 40px 0;
+    padding-right: 200px;
   }
   
   button {
     color: white;
     font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
   
     background: #69B99D;
     border: 0;
     padding: 0 50px 30px;
   
     display: flex;
-    justify-content: space-around;
-    gap: 50px;
-  
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+    padding: 14px 32px 15px 32px;
+    
+
     border-radius: 4px;
   
     cursor: pointer;
@@ -106,6 +118,7 @@ body {
   }
   
   #balls {
+    position: fixed;
       bottom: 0;
       right: 0;
   }
